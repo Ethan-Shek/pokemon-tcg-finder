@@ -1,0 +1,56 @@
+body {
+  background: radial-gradient(circle at top, #ffcb05, #3b4cca);
+  min-height: 100vh;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #fff;
+  margin: 0; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+h1.title {
+  font-family: 'Press Start 2P', cursive;
+  color: #ffcb05;
+  text-shadow: 2px 2px #3b4cca;
+}
+
+nav .button {
+  margin: 0 5px;
+}
+
+footer {
+  color: #fff;
+  opacity: 0.8;
+}
+
+input.input,
+.select select {
+  border: 2px solid #3b4cca;
+  border-radius: 6px;
+}
